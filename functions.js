@@ -4,7 +4,7 @@ function soma(x, y) {
 console.log(soma(5,7))
 console.log(soma(2,9))
 console.log(soma(12,2))
-console.log(soma(4,27))
+console.log(soma(`PAULO `,'JUNIOR'))
 
 function deMaior(idade) {
     if (idade === 18) {
@@ -28,7 +28,7 @@ const minhaFuncao = function () { return 2 + 2}
 console.log(minhaFuncao() + 6)
 
 // função anonima - função dentro de um array
-const meuArray = [function(a,b) { return a -b }, 'Paulo', 2024, 'a', true]
+const meuArray = [function(a,b) { return a-b }, 'Paulo', 2024, 'a', true]
 
 console.log(meuArray[0](3,2))
 
